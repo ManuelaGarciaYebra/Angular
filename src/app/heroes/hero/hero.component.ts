@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
 @Component({
 selector: 'app-hero',
 templateUrl: './hero.component.html',
-// styleUrls: ['./counter.component.css'] //Change and create my owns tyles
+styleUrls: ['../../app.component.css'],
 })
 export class HeroComponent {
 public name: string = 'Ironman';
