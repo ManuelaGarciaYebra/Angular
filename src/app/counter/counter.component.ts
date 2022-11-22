@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './counter.component.html',
   styleUrls: ['./counter.component.css'],
 })
-export class ContadorComponent {
+export class CounterComponent {
   public title: string = 'Contador App';
   public base: number = 5;
   public number: number = 10;
