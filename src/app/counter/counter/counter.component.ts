@@ -2,8 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-counter',
-  templateUrl: './counter.component.html',
-  styleUrls: ['./counter.component.css'],
+  templateUrl: './counter.component.html'
 })
 export class CounterComponent {
   public title: string = 'Contador App';
