@@ -12,4 +12,7 @@ export class DbzService {
     return [...this._characters];
   }
   constructor() {}
+  public addCharacters(character: Character) {
+    this._characters.push(character);
+  }
 }
